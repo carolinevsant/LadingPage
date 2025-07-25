@@ -1,18 +1,30 @@
 @import url(global.css);
 
 /*---------------- HEADER COMEÇO -----------------*/
-
+body{
+    width: 100%;
+    height: 100vh;
+     background-color: var(--color-neutral-Silver);
+}
 header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    
     padding: 22px 0;
-
+    
     background-color: var(--color-neutral-Silver);
     border-bottom: 1px solid;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    padding: 90px 0;
+    width: 100%;
+}
 .navHeader ul{
     display: flex;
     gap: 50px;
@@ -56,19 +68,26 @@ header{
     font-size: 14px;
 }
 
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+}
+.menu-toggle span{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+
+}
+
 /*---------------- FIM HEADER -----------------*/
 
 /*---------------- MAIN -----------------*/
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 104px;
-    padding: 90px 0;
-
-    background-color: var(--color-neutral-Silver);
-}
 
 .contentLessons{
     display: flex;
@@ -620,4 +639,76 @@ footer{
 .companyInfomation{
     display: flex;
     flex-direction: column;
+}
+
+/*      Breakpoints   
+ mobile   480px
+ tables   768px
+ notebook 1024px
+ desktop  1200px
+
+
+*/
+
+@media (max-width: 1024px){
+    .navHeader, .btn-header{
+        display: none;
+    }
+    .menu-toggle{
+        display: flex;
+    }
+    main{
+        gap: 20px;
+        padding: 40px;
+    }
+    main h1{
+        font-size: 40px;
+    }
+    .ManageZero{
+        gap: 125px;
+    }
+    .Pixelgrade{
+        gap: 10px;
+    }
+    .caring{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+    .caringMarketing{
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        padding: 40px;  
+        
+    }
+    .TimSmith{
+        padding: 60px;
+    }
+    .imgTimSmith{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+    }
+    .Pixelgrade{
+        padding: 40px;
+        border: 1px solid rgb(219, 209, 209);
+    }
+    .Pixelgrade1 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .Helping{
+        padding: 60px;
+    }
+}
+
+@media (max-width: 768px){
+
+}
+@media (max-width: 480px){
+
 }
