@@ -1,0 +1,714 @@
+@import url(global.css);
+
+/*---------------- HEADER COMEÇO -----------------*/
+body{
+    width: 100%;
+    height: 100vh;
+     background-color: var(--color-neutral-Silver);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 22px 0;
+    
+    background-color: var(--color-neutral-Silver);
+    border-bottom: 1px solid;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    padding: 90px 0;
+    width: 100%;
+}
+.navHeader ul{
+    display: flex;
+    gap: 50px;
+}
+
+.navHeader ul li a{
+    color: #18191F ;
+}
+
+.active{
+    font-weight: 600;
+}
+
+.btn-header{
+   display: flex;
+   gap: 14px; 
+}
+
+.btnLogin{
+    background-color: var(--color-neutral-Silver);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btnLogin a{
+    color: var(--color-Primary);
+    font-weight: 400;
+}
+
+.btnSignUp{
+    background-color: var(--color-Primary);
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    
+}
+
+.btnSignUp a {
+    color: var(--color-neutral-Silver);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+}
+.menu-toggle span{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+
+}
+
+/*---------------- FIM HEADER -----------------*/
+
+/*---------------- MAIN -----------------*/
+
+
+.contentLessons{
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+    width: 657px;
+}
+
+.imgLessons img{
+    width: 400px;
+    border-radius: 30%;
+}
+.contentLessons h1{
+    font-size: 64px;
+    color: var( --color-neutral-Dgrey);
+}
+
+.contentLessons h1 span{
+    color: var(--color-Primary);
+}
+
+.contentLessons p{
+    color: var(--color-neutral-Dgrey);
+
+}
+
+.contentLessons button{
+    width: 128px;
+    font-size: 16px;
+
+}
+
+.btnPrimary{
+    padding: 14px 32px;
+    border-radius: 4px;
+
+    background-color: var(--color-Primary);
+
+    color: var(--color-neutral-White);
+    cursor: pointer;
+    transition: 1s;
+
+
+}
+
+.btnPrimary:hover{
+    background-color: var(--color-Shade3);
+}
+
+/*---------------- fIM MAIN -----------------*/
+
+.ourClients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ourClientsContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 40px;
+
+}
+
+.ourClientsContent p{
+    display: flex;
+    margin-top: 6px;
+    color: var(--color-neutral-Dgrey);
+    
+}
+
+.ourClientsContent H2{
+    color: var(--color-neutral-Dgrey);
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+
+
+    padding: 25px 0;
+    gap: 136px;
+}
+
+/*------------------------------------------------------*/
+
+.Manage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40px;
+}
+
+.ManageOne h2{
+    font-size: 36px;
+    color: var(--color-neutral-Dgrey);
+
+    width: 542px;
+    text-align: center;
+}
+
+.Manage p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    color: var(--color-neutral-Dgrey);
+    margin-top: 8px;
+}
+
+.ManageZero{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 16px;
+    margin-bottom: 50px;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(201, 195, 195, 0.3);
+    padding: 24px 24px 32px 32px;
+
+    width: 299px;
+    
+}
+
+.card2{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(201, 195, 195, 0.3);
+    padding: 24px 24px 32px 32px;
+
+    width: 299px;
+}
+
+.card3{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(201, 195, 195, 0.3);
+    padding: 24px 24px 32px 32px;
+
+    width: 299px;
+}
+
+.ManageZero h3{
+    font-size: 28px;
+    color: var(--color-neutral-Dgrey);
+    font-family: "Inter", sans-serif;
+    margin-top: 16px;
+
+}
+
+.ManageZero p{
+    font-size: 14px;
+    color: var(--color-neutral-Dgrey);
+    font-family: "Inter", sans-serif;
+
+    line-height: 20px;
+}
+
+/*----------------------PIXEL-------------------------*/
+
+.Pixelgrade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 443px;
+    margin-bottom: 48px;
+   
+}
+
+.Pixelgrade > .imgPleople{
+    width: 441px;
+    height: 328px;
+}
+
+.Pixelgrade0{
+    display: flex;
+    flex-direction: column;
+    width: 661px;
+    height: 266px;
+}
+
+.Pixelgrade1 h2{
+    display: flex;
+    justify-content: center; 
+
+    width: 601px;
+    margin-bottom: 16px;
+    font-size: 36px;
+
+    color: var(--color-neutral-Dgrey);
+}
+
+.Pixelgrade1 p{
+    display: flex;
+    align-items: center;
+
+    width: 601px;
+    height: 80px;
+
+    line-height: 20px;
+    font-size: 14px;
+    color: var(--color-neutral-Dgrey);
+    font-family: "Inter", sans-serif;
+}
+
+.btn-Pixel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 151px;
+    height: 52px;
+    margin-top: 32px;
+    border-radius: 4px;
+
+    background-color: var(--color-Primary);
+    color: var(--color-neutral-White);
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.btn-Pixel:hover{
+    background-color: rgb(10, 155, 10);
+    transition: 1s;
+}
+/*---------------------------------------------------*/
+
+.Helping{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 288px;
+
+    background-color: var(--color-neutral-Silver);
+}
+
+.helping1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 540px;
+    height: 140px;
+}
+
+.dashHelping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    width: 540px;
+    height: 160px;
+    
+}
+
+.helping1 h2{
+    font-size: 36px;
+    margin-bottom: 8px;
+
+    width: 390px;
+    color: var(--color-neutral-Dgrey);
+}
+
+.helping1 h2 span{
+    color: var(--color-Primary);
+}
+
+.helping1 p{
+    display: flex;
+    justify-content: start;
+    border: 1px solid;
+}
+
+.dash1{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.dash1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.dash2{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    gap: 30px;
+}
+.dash2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------------------------*/
+
+.design{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 54px;
+
+    width: 100%;
+    height: 440px;
+}
+
+.designText{
+    width: 601px;
+    height: 308px;
+}
+
+.designText h2{
+    font-size: 36px;
+    color: var(--color-neutral-Dgrey);
+
+    margin-bottom: 16px;
+}
+
+.designText p{
+    line-height: 20px;
+    font-size: 14px;
+    color: var(--color-neutral-Dgrey);
+}
+
+.btnDesign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 151px;
+    height: 52px;
+    margin-top: 32px;
+    font-size: 16px;
+
+    border-radius: 4px;
+    background-color: var(--color-Primary);
+    color: var(--color-neutral-White);
+}
+
+/*---------------------------------------*/
+
+.TimSmith{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 78px;
+    margin-top: 32px;
+    width: 100%;
+    height: 390px;
+
+    background-color: var(--color-neutral-Silver);
+}
+
+.imgTimSmith{
+    margin-top: 32px;
+}
+
+.paragrafo{
+    width: 748px;
+    height: 324px;
+}
+.paragrafo .p1{
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+    color: var(--color-neutral-Dgrey);
+}
+
+.paragrafo h3{
+    color: var(--color-Primary);
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.paragrafo .British{
+    font-size: 16px;
+    margin-bottom: 16px;
+
+    color: var(--color-neutral-Dgrey);
+}
+
+.imgs{
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+
+/*---------------------------------------*/
+
+.caring{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 48px;
+    gap: 16px;
+
+}
+
+.caringMkt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.caringMkt p{
+    color: var(--color-neutral-Dgrey);
+    width: 638px;
+
+}
+
+.caringMarketing{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.caringCards{
+    width: 368px;
+    position: relative;
+
+}
+
+.caringCardsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    width: 317px;
+
+    position: absolute;
+    top: 190px;
+    left: 25.5px;
+    border-radius: 8px;box-shadow: 0px 8px 16px rgb(255, 255, 255);
+    background-color: var(--color-neutral-Silver);
+}
+
+.caringCardsContent p{
+    font-size: 20px;
+    font-weight: 600;
+
+    color: var(--color-neutral-Grey);
+}
+
+.caringCardsContent button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 20px;
+    color: var(--color-Primary);
+}
+
+.Pellentesque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+    width: 100%;
+    height: 300px;
+    background-color: var(--color-neutral-Silver);
+
+}
+
+.Pellentesque h2{
+    text-align: center;
+    font-size: 64px;
+    width: 840px;
+    height: 152px;
+
+    color: var( --color-neutral-black)
+}
+
+.Pellentesque button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 178px;
+    height: 52px;
+    background-color: var(--color-Primary);
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--color-neutral-White);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--color-neutral-black);
+    width: 100%;
+    height: 328px;
+    color: var(--color-neutral-Silver);
+
+}
+.about{
+    display: flex;
+    align-items: start;
+
+}
+.about nav {
+    display: flex;
+    flex-direction: colum;
+}
+
+.companyInfomation{
+    display: flex;
+    flex-direction: column;
+}
+
+/*      Breakpoints   
+ mobile   480px
+ tables   768px
+ notebook 1024px
+ desktop  1200px
+
+
+*/
+
+@media (max-width: 1024px){
+    .navHeader, .btn-header{
+        display: none;
+    }
+    .menu-toggle{
+        display: flex;
+    }
+    main{
+        gap: 20px;
+        padding: 40px;
+    }
+    main h1{
+        font-size: 40px;
+    }
+    .ManageZero{
+        gap: 125px;
+    }
+    .Pixelgrade{
+        gap: 10px;
+    }
+    .caring{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+    .caringMarketing{
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        padding: 40px;  
+        
+    }
+    .TimSmith{
+        padding: 60px;
+    }
+    .imgTimSmith{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+    }
+    .Pixelgrade{
+        padding: 40px;
+        border: 1px solid rgb(219, 209, 209);
+    }
+    .Pixelgrade1 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .Helping{
+        padding: 60px;
+    }
+}
+
+@media (max-width: 768px){
+
+}
+@media (max-width: 480px){
+
+}
